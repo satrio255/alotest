@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/rl_monas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.chabbal.slidingdotsplash.SlidingSplashView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imageResources="@array/img_monas"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_pancoran"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.chabbal.slidingdotsplash.SlidingSplashView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imageResources="@array/img_pancoran"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_fatah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.chabbal.slidingdotsplash.SlidingSplashView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imageResources="@array/img_fatah"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

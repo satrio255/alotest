@@ -19,16 +19,16 @@ public class HomeFragment extends BaseFragment {
 
     @OnClick(R.id.rl1)
     void showMonas(){
-//        DetailActivity.startActivity((BaseActivity) HomeActivity.this, "monas");
+        DetailActivity.startActivity((BaseActivity) getActivity(), "monas");
     }
 
     @OnClick(R.id.rl2)
     void showPancoran(){
-//        DetailActivity.startActivity((BaseActivity) HomeActivity.this, "pancoran");
+        DetailActivity.startActivity((BaseActivity) getActivity(), "pancoran");
     }
 
     @OnClick(R.id.rl3)
     void showFatah(){
-//        DetailActivity.startActivity((BaseActivity) HomeActivity.this, "fatah");
+        DetailActivity.startActivity((BaseActivity) getActivity(), "fatah");
     }
 }

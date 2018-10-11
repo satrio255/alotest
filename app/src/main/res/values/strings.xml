@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">ALOTEST</string>
+
+    <integer-array name="img_monas">
+        <item>@drawable/img_monas1</item>
+        <item>@drawable/img_monas2</item>
+        <item>@drawable/img_monas3</item>
+    </integer-array>
+
+    <integer-array name="img_pancoran">
+        <item>@drawable/img_pancoran1</item>
+        <item>@drawable/img_pancoran2</item>
+        <item>@drawable/img_pancoran3</item>
+    </integer-array>
+
+    <integer-array name="img_fatah">
+        <item>@drawable/img_fatah1</item>
+        <item>@drawable/img_fatah2</item>
+        <item>@drawable/img_fatah3</item>
+    </integer-array>
+
 </resources>
